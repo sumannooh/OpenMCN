@@ -103,3 +103,32 @@ footer{
 .card p{
     color:#cbd5e1;
 }
+
+.stats{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.stats-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.stat{
+    width:180px;
+    padding:25px;
+    background:#1e293b;
+    border-radius:12px;
+}
+
+.stat h3{
+    font-size:36px;
+    color:#3b82f6;
+}
+
+.stat p{
+    color:#cbd5e1;
+}
