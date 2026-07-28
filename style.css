@@ -196,3 +196,8 @@ footer{
     border-radius:8px;
     cursor:pointer;
 }
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
