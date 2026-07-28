@@ -11,3 +11,14 @@ if (loginForm) {
     alert("Login feature coming soon!");
   });
 }
+const signupForm = document.getElementById("signupForm");
+
+if (signupForm) {
+    signupForm.addEventListener("submit", function(e) {
+        e.preventDefault();
+
+        alert("Account Created Successfully!");
+
+        window.location.href = "login.html";
+    });
+}
