@@ -167,3 +167,32 @@ footer{
 .btn:hover{
     background:#1d4ed8;
 }
+
+.contact{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.contact form{
+    max-width:500px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.contact input,
+.contact textarea{
+    padding:12px;
+    border:none;
+    border-radius:8px;
+}
+
+.contact button{
+    padding:12px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
