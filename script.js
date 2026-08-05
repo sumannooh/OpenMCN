@@ -38,3 +38,24 @@ if (menuToggle && navMenu) {
         navMenu.classList.toggle("active");
     });
 }
+const counters = document.querySelectorAll(".stat h3");
+
+counters.forEach(counter => {
+    const target = parseInt(counter.innerText);
+
+    if (!isNaN(target)) {
+        let count = 0;
+        const update = () => {
+            count += Math.ceil(target / 100);
+
+            if (count >= target) {
+                counter.innerText = target + "+";
+            } else {
+                counter.innerText = count;
+                requestAnimationFrame(update);
+            }
+        };
+
+        update();
+    }
+});
