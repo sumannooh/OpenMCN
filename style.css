@@ -81,16 +81,6 @@ nav a:hover{
     text-align:center;
 }
 
-.hero h2{
-    font-size:48px;
-    margin-bottom:20px;
-}
-
-.hero p{
-    font-size:20px;
-    color:#cbd5e1;
-    margin-bottom:30px;
-}
 
 /* Responsive */
 @media(max-width:768px){
