@@ -189,3 +189,30 @@ nav{
 .contact textarea{
     resize:vertical;
 }
+.menu-toggle{
+    display:none;
+    font-size:28px;
+    cursor:pointer;
+}
+
+@media (max-width:768px){
+
+.menu-toggle{
+    display:block;
+}
+
+nav{
+    display:none;
+    flex-direction:column;
+    width:100%;
+    margin-top:15px;
+}
+
+nav.active{
+    display:flex;
+}
+
+header .container{
+    flex-wrap:wrap;
+}
+}
