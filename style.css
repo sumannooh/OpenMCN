@@ -153,3 +153,39 @@ nav{
     color:#3b82f6;
     font-size:36px;
 }
+
+.about{
+    padding:80px 0;
+    text-align:center;
+}
+
+.about p{
+    max-width:700px;
+    margin:20px auto;
+    color:#cbd5e1;
+}
+
+.contact{
+    padding:80px 0;
+    text-align:center;
+}
+
+.contact form{
+    max-width:600px;
+    margin:30px auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.contact input,
+.contact textarea{
+    padding:15px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.contact textarea{
+    resize:vertical;
+}
