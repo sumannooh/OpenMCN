@@ -63,3 +63,14 @@ counters.forEach(counter => {
     transform:translateY(-3px) scale(1.05);
     transition:.3s;
 }
+const contactForm = document.getElementById("contactForm");
+
+if (contactForm) {
+  contactForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    alert("Thank you! Your message has been sent.");
+
+    contactForm.reset();
+  });
+}
