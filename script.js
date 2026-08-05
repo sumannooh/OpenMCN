@@ -59,3 +59,7 @@ counters.forEach(counter => {
         update();
     }
 });
+.btn:hover{
+    transform:translateY(-3px) scale(1.05);
+    transition:.3s;
+}
