@@ -71,8 +71,14 @@ nav a:hover{
 
 /* Hero */
 .hero{
+    background:linear-gradient(rgba(15,23,42,.8),rgba(15,23,42,.8)),
+    url("images/hero.jpg") center/cover no-repeat;
+
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     text-align:center;
-    padding:120px 20px;
 }
 
 .hero h2{
