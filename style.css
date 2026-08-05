@@ -216,3 +216,25 @@ header .container{
     flex-wrap:wrap;
 }
 }
+.testimonials,
+.faq{
+    padding:80px 0;
+}
+
+.testimonials h2,
+.faq h2{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+details{
+    background:#1e293b;
+    padding:15px;
+    border-radius:8px;
+    margin:15px 0;
+    cursor:pointer;
+}
+
+summary{
+    font-weight:bold;
+}
